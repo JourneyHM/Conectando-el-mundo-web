@@ -8,7 +8,7 @@ interface ButtonProps{
 
 function Button(props: ButtonProps){
     return(
-        <button onClick = {props.onPress} className = "Button">Ver esquema</button>
+        <button onClick = {props.onPress} className = "Button">{props.title}</button>
     );
 }
 
