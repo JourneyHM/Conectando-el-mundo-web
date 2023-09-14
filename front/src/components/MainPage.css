@@ -1,0 +1,192 @@
+.MainPage{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    min-height: 675px;
+    width:97%;
+}
+
+@font-face {
+    font-family: 'Istok Web';
+    font-style: normal; 
+    font-weight: bold;
+    src: url('../fonts/IstokWeb-Bold.ttf');
+
+}
+.Title{
+    margin-left: 20px;
+    font-weight: 700px;
+    font-family:'Istok Web';
+    font-style:normal;
+    font-size: 35px;
+}
+
+.User{
+    margin-right: 150px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-size: 30px;
+    text-align: right;
+}
+
+.square {
+    margin-left: 15px;
+    width: 300px;
+    max-width: 80%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.square:hover {
+    transform: scale(1.05);
+}
+
+.square h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.square p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.CuadroEmergente{
+    text-align: center;
+}
+
+.todo-box {
+    margin-left: 15px;
+    width: 300px;
+    max-width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out; /* Agregamos una transición para la animación */
+}
+
+.todo-box:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el cursor */
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+}
+
+.todo-text {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #333;
+}
+
+.todo-checkbox input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.todo-checkbox input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #555;
+}
+
+.add-button {
+    background-color: rgb(93, 135, 244);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+    width: 40px;
+    font-size: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: right;
+    margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+    font-size: 0.75em; 
+}
+
+.agenda .agenda-time { width: 140px; } 
+
+/* Estilo para el contenedor del menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre el botón y los enlaces */
+  }
+  
+  /* Estilo para el botón */
+  .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el icono de usuario */
+  .dropbtn img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Estilo para el menú desplegable */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+  }
+  
+  /* Estilo para los enlaces del menú */
+  .dropdown-content a {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Cambia el color de fondo al pasar el cursor sobre los enlaces */
+  .dropdown-content a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Muestra el menú desplegable cuando se coloca el cursor sobre el botón */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

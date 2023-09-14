@@ -1,6 +1,29 @@
-.Button{
-    background-color:red;
-    color: white;
+.Button {
+    background-color: white;
+    color: black;
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 2px;
+    border-color: #6F53F6;
     border-radius: 15px;
+    border-width: 2.5px;
+    border-bottom-width: 4;
+    padding: 10px;
+}
+
+/* Mientras el cursor se posa sobre el botón
+    hover: Es para este caso
+    action: Es cuando el botón es presionado
+*/
+.Button:hover {
+    background-color: #6F53F6;
+    color: black;
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 2px;
+    border-color: #6F53F6;
+    border-radius: 15px;
+    border-width: 2.5px;
+    border-bottom-width: 4;
     padding: 10px;
 }
