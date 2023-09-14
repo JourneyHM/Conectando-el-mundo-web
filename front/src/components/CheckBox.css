@@ -1,0 +1,27 @@
+/* Definimos una nueva tipografía para el campo de texto */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+.CheckBox {
+    accent-color: #5AB338;
+    border: solid white;
+    color: white;
+    color-scheme: white;
+    border-color: white;
+    flood-color: white;
+    width: 20px;
+    height: 20px;
+    /* padding-right: 20px; */
+}
+
+.Text {
+    color: black;
+    font-family: 'Inter';
+    font-size: 13pt;
+    padding-left: 5.3px;
+    padding-top: 0px;
+}

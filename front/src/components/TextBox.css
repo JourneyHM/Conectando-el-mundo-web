@@ -1,0 +1,21 @@
+/* Definimos una nueva tipografía para el campo de texto */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+.TextBox {
+    background-color: #DFFFFF;
+    color: #899797;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-indent: 10px;
+    height: 40px; 
+    width: 2.7in;
+    border: 0px;
+    border-radius: 10px;
+}
+

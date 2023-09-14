@@ -1,0 +1,15 @@
+/* Definimos una nueva tipografía para el campo de texto */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+.Text{
+    color: black;
+    width: 120px;
+    padding-top: 10px;
+    padding-right: 73px;
+    justify-content: 'left';
+}

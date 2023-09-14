@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/IstokWeb-Bold.ttf');
+}
+
+.Title {
+    color: white;
+    font-family: 'Istok Web';
+    font-size: 70px;
+    padding-left: 20px;
+}
