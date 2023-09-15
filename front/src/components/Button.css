@@ -1,7 +1,8 @@
 .Button {
+    margin-top: 100px;
     background-color: white;
     color: black;
-    font-size: 28pt;
+    font-size: 20pt;
     font-weight: bold;
     margin: 2px;
     border-color: #6F53F6;
@@ -16,9 +17,10 @@
     action: Es cuando el botón es presionado
 */
 .Button:hover {
+    margin-top: 100px;
     background-color: #6F53F6;
     color: black;
-    font-size: 28pt;
+    font-size: 20pt;
     font-weight: bold;
     margin: 2px;
     border-color: #6F53F6;
