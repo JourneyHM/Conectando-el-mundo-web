@@ -26,8 +26,10 @@
     margin-right: 20px;
     font-weight: 700;
     font-family:'Istok Web';
-    font-style:normal;
-    font-size: 35px;
+    font-size: 23px;
+    justify-content: left;
+    padding-right: 3px;
+    width: 500px;
 }
 
 .square {
@@ -158,8 +160,7 @@
 
 /* Estilo para el contenedor del menú desplegable */
 .dropdown {
-    margin-left: 250px;
-    position:absolute;
+    position: absolute;
     display: inline-block;
 }
 

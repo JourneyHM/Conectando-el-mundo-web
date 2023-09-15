@@ -1,10 +1,9 @@
 import "./MainPage.css"
 import { Grid } from "@mui/material";
-import Button from './Button'
-import Agenda from "./../static/img/icon.png"
-import User from "./../static/img/user.png"
-import Options from "./../static/img/options.png"
-import Anuncio from "./../static/img/anuncio.png"
+import Agenda from "./../static/images/icon.png"
+import User from "./../static/images/user.png"
+import Options from "./../static/images/options.png"
+import Anuncio from "./../static/images/anuncio.png"
 
 function MainPage(){
     return (
@@ -21,7 +20,7 @@ function MainPage(){
                 <div className="dropdown">
                         <h1 className="User">
                             <img src={User} width="35" height="35" alt="Usuario"/>
-                            &nbsp;Usuario&nbsp;
+                            &nbsp;Juan Francisco Sánchez Sánchez&nbsp;
                             <img src={Options} width="20" height="20" alt="Options"/> 
                         </h1>
                     <div className="dropdown-content">
@@ -42,7 +41,7 @@ function MainPage(){
                     </div>
                 </Grid>
                 <Grid item xs = {4}>
-                    <h2 className="Event-Title">Eventos<img src={Anuncio} width="50" height="50"/></h2>
+                    <h2 className="Event-Title">Eventos<img src={Anuncio} width="50" height="50" alt = "Altavoz"/></h2>
                     <div className="ad-container">
                         <div className="ad">
                             <h4 className="ad-title">Tiempo restante para el próximo evento:</h4>
