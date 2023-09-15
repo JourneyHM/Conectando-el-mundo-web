@@ -1,8 +1,8 @@
 import "./MainPage.css"
 import { Grid } from "@mui/material";
 import Button from './Button'
-import Agenda from "./../static/img/icon.png"
-import User from "./../static/img/user.png"
+import Agenda from "./../static/images/icon.png"
+import User from "./../static/images/user.png"
 
 function MainPage(){
     return (
@@ -10,19 +10,19 @@ function MainPage(){
             <Grid container>
                 <Grid item xs = {6}>
                     <h1 className="Title">WebPlannerPro
-                        <img src={Agenda} width="50" height="50"/>
+                        <img src = {Agenda} width="50" height="50" alt = "Agenda"/>
                     </h1>
                 </Grid>
                 <Grid item xs = {6}>
                 <div className="dropdown">
                     <button className="dropbtn">
                         <h1 className="Title">
-                            <img src={User} width="50" height="50" alt="Usuario"/>
+                            <img src = {User} width="50" height="50" alt = "Usuario"/>
                             Usuario
                         </h1>
                     </button>
                     <div className="dropdown-content">
-                            <a href="#" className="nav-link">Salir</a>
+                            <a href = "http://127.0.0.1:3000" className = "nav-link">Salir</a>
                     </div>
                 </div>
                 </Grid>
