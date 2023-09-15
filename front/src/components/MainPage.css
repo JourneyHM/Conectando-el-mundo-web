@@ -1,10 +1,10 @@
 .MainPage{
     background-color: white;
+    margin-top:10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    min-height: 675px;
-    width:97%;
+    min-height: 690px;
+    width:98%;
 }
 
 @font-face {
@@ -23,16 +23,16 @@
 }
 
 .User{
-    margin-right: 150px;
+    margin-right: 20px;
     font-weight: 700;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Istok Web';
     font-style:normal;
-    font-size: 30px;
-    text-align: right;
+    font-size: 35px;
 }
 
 .square {
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right:auto;
     width: 300px;
     max-width: 80%;
     background-color: #ffffff;
@@ -61,14 +61,30 @@
     color: #555;
 }
 
+.note-button {
+    background-color: rgb(93, 135, 244);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.note-button:hover {
+    background-color: #0056b3;
+}
+
 .CuadroEmergente{
     text-align: center;
 }
 
 .todo-box {
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right:auto;
     width: 300px;
-    max-width: 100%;
+    max-width: 80%;
     background-color: #ffffff;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -109,6 +125,8 @@
 }
 
 .add-button {
+    margin-left: 50px;
+    margin-right: auto;
     background-color: rgb(93, 135, 244);
     color: #ffffff;
     border: none;
@@ -122,7 +140,6 @@
 .add-button:hover {
     background-color: #0056b3;
 }
-
 
 .agenda .agenda-date { width: 170px; }
 .agenda .agenda-date .dayofmonth {
@@ -141,52 +158,86 @@
 
 /* Estilo para el contenedor del menú desplegable */
 .dropdown {
-    position: relative;
+    margin-left: 250px;
+    position:absolute;
     display: inline-block;
-    margin-right: 20px; /* Espacio entre el botón y los enlaces */
-  }
-  
-  /* Estilo para el botón */
-  .dropbtn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Estilo para el icono de usuario */
-  .dropbtn img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
+}
+
+
   /* Estilo para el menú desplegable */
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #fff;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right:0;
-  }
-  
+}
+
   /* Estilo para los enlaces del menú */
-  .dropdown-content a {
+.dropdown-content a {
     color: #333;
     text-align: center;
     padding: 10px;
     text-decoration: none;
     display: block;
-  }
-  
+}
+
   /* Cambia el color de fondo al pasar el cursor sobre los enlaces */
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
     background-color: #f2f2f2;
+}
+
+  /* Muestra el menú desplegable cuando se coloca el cursor sobre el botón */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Event-Title{
+    margin-top: -70px;
+    text-align: center;
+    font-weight: 700;
+    font-family:'Istok Web';
+    font-style:normal;
+    font-size: 35px;
+}
+
+.alert-title{
+    text-align: center;
+}
+
+/* Estilos para el contenedor de anuncios */
+.ad-container {
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(248, 58, 58);
+    border: 5px solid #d3d2ce;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
   }
   
-  /* Muestra el menú desplegable cuando se coloca el cursor sobre el botón */
-  .dropdown:hover .dropdown-content {
-    display: block;
+  /* Estilos para cada anuncio */
+  .ad {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para el título del anuncio */
+  .ad-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  
+  /* Estilos para el contenido del anuncio */
+  .ad-content {
+    font-size: 12px;
+    font-weight: bold;
+    color: #e1e1e1;
+    margin-bottom: 10px;
   }
   
